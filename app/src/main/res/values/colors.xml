@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorListItemBackground">#086375</color>
+    <color name="colorFragmentBackground">#ffffff</color>
+    <color name="colorAccent">#086375</color>
+
+    <color name="colorTopSpacer">#B2FF9E</color>
+    <color name="colorBottomSpacer">#B2FF9E</color>
+
+    <color name="colorBorder">#1DD3B0</color>
+    <color name="colorTextInputBackground">#757575</color>
+    <color name="colorDurationPicker">#086375</color>
+
+    <color name="colorListItemText">#FFFFFF</color>
+    <color name="colorTextBlack">#222</color>
+    <color name="colorPickedTimeText">#B2FF9E</color>
+
+    <color name="colorWarning">#FF7777</color>
+</resources>

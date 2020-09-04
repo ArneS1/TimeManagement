@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TimeManagement</string>
+    <string name="placeholderMin">000 min</string>
+    <string name="placeholderName">Loading...</string>
+    <string name="placeholderDaytime">08:00 AM</string>
+    <string name="placeholderTaskName">New Task</string>
+</resources>

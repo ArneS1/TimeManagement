@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="640dp"
+        android:background="@drawable/new_task_background"
+        android:padding="0dp">
+
+        <EditText
+            android:id="@+id/editTask_taskName"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/colorTextInputBackground"
+            android:hint="@string/placeholderTaskName"
+            android:maxLength="105"
+            android:textSize="35sp"
+            android:textColor="@color/colorTextBlack"
+            android:layout_marginBottom="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"
+            android:text="SET TASK TIME"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+        <HorizontalScrollView
+            android:id="@+id/editTask_horizontalScrollview"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="6dp"
+            android:padding="6dp"
+            android:background="@drawable/duration_picker_background">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/editTask_linearLayout_newTaskLength">
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="TIME LEFT TODAY"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/editTask_timeLeft_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="08 H"
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/editTask_timeLeft_minutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="00 M"
+            android:textSize="25sp"
+            android:layout_marginBottom="105dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/editTask_buttonCancel"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel" />
+
+            <Button
+                android:id="@+id/editTask_buttonSave"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Save" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editTask_buttonDelete"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Task" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
